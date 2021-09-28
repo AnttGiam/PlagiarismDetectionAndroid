@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- import per l'utilizzo di chart.min.js -->
+    <script src="{{ url_for('static', filename='Chart.min.js')}}"></script>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+
+    {% if title %}
+        <title>Plagiarism Detection - {{ title }}</title> <!-- se abbiamo una var title -->
+    {% else %}
+        <title>Plagiarism Detection</title> <!-- se non diamo alcun titolo, questo è il default -->
+    {% endif %}
+</head>
+
+<body>
+	<div class="wrapper">
+    	<header class="site-header">
+			<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top bg-dark">
+				<div class="container">
+					<a href="{{ url_for('main.home') }}" title="Home">
+						<img class="rounded-circle" src="{{ url_for('static', filename='layout_images/mm-logo-squared.png') }}" title="Musimathics Lab" width="60">
+					</a>
+					<a class="pl-2 navbar-brand mr-4" href="/">Plagiarism Detection</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label=	"Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarToggle">
+						<div class="navbar-nav mr-auto">
+							<a class="nav-item nav-link" href="{{ url_for('main.home') }}">Home</a>
+							<a class="nav-item nav-link" href="{{ url_for('main.about') }}">About</a>
+							<a class="nav-item nav-link" href="{{ url_for('sentences.all_sentences') }}">Database</a>
+							<a class="nav-item nav-link" href="{{ url_for('sentences.search_page') }}">Search Page</a>
+							<a class="nav-item nav-link" href="{{ url_for('main.upload_songs') }}">Check Plagiarism!</a>
+						</div>
+
+						<!-- Navbar Right Side -->
+						<div class="navbar-nav">
+							{% if current_user.is_authenticated %}
+								<a class="nav-item nav-link" href="{{ url_for('sentences.new_sentence_no_check') }}">New Case</a>
+								<a class="nav-item nav-link" href="{{ url_for('users.account') }}">Account</a>
+								<a class="nav-item nav-link" href="{{ url_for('users.logout') }}">Logout</a>
+							{% else %}
+								<a class="nav-item nav-link" href="{{ url_for('users.login') }}">Login</a>
+								<!--a class="nav-item nav-link" href="{{ url_for('users.register') }}">Register</a-->
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- spazio divisorio, io lo lascio... -->
+		<main role="main" class="container" style="padding-bottom:200px;">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+				{% with messages = get_flashed_messages(with_categories=true) %} <!-- accettiamo le categorie -->
+					{% if messages %}
+						{% for category, message in messages %}
+							<div class="alert alert-{{ category }}">
+								{{ message }}
+							</div>
+						{% endfor %}
+					{% endif %}
+				{% endwith %}
+                {% block content %}{% endblock %} <!-- block content dove scriveremo cose specifiche nelle pagine-->
+				</div>
+			</div>
+			{% block additional_content %}{% endblock %} <!-- contenuti aggiuntivi -->
+        </main>
+
+        <div class="footer">
+            <div class="container footer__content">
+            	<span class="text-muted " style="color:white;">
+            	    <div class="container ">
+            	        <div class="row">
+            	            <div class="col-lg col-md col-sm col-xs" align="center">
+            	                <a href="https://www.unisa.it" title="Home"><img class="img-fluid" src="{{ url_for('static', filename='layout_images/logo-unisa.png') }}" title="University of Salerno" width="180"></a>
+            	            </div>
+            	            <div class="col-lg col-md col-sm col-xs" align="center">
+            	                <a href="https://www.di.unisa.it/" title="Unisa"><img class="img-fluid" src="{{ url_for('static', filename='layout_images/logo-dep.png') }}" title="Computer Science Department" width="500"></a>
+            	            </div>
+            	            <div style="font-family:Oswald,sans-serif; font-size:10pt; color: white;" class="col-lg col-md col-sm col-xs tar-sm tal fsm" align="center"><a class="nav-footer__item-link" href="https://web.unisa.it/ateneo/contatti" title="Contact"><strong>Contact</strong></a>
+            	                <br><br>Computer Science Department<br>University of Salerno<br> Via Giovanni Paolo II, 132<br> 84084 Fisciano (SA)
+            	            </div>
+            	        </div>
+            	    </div>
+            	</span>
+            </div>
+		</div>
+
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

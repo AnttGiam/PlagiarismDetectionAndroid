@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section"> <!-- stile presente in main.css -->
+      <!-- FORM HERE -->
+            <form method="POST" action="" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}     <!-- Aggiunge un token csrf per protezione-->
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Upload Songs</legend>
+                    <div class="form-group">
+                        To check if 2 songs are in musical plagiarism you need to load the music scores (in <i>MusicXML</i> format) in the form below.
+                    </div>
+                    <div class="form-group">
+                        <b>{{ form.song_file1.label() }}</b>
+                        {{ form.song_file1(class="form-control-file") }}
+                        {% if form.song_file1.errors %}
+                            {% for error in form.song_file1.errors %}
+                                <span class="text-danger">{{ error }}</span></br>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="form-group">
+                        <b>{{ form.song_file2.label() }}</b>
+                        {{ form.song_file2(class="form-control-file") }}
+                        {% if form.song_file2.errors %}
+                            {% for error in form.song_file2.errors %}
+                                <span class="text-danger">{{ error }}</span></br>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </fieldset>
+                <div class="form-group"> <!-- div per il submit -->
+                    {{ form.submit(class="btn btn-outline-info") }} <!-- da bootstrap classe bottone con bordi-->
+                </div>
+                    <div class="form-group">
+                        For an example:
+                        <ol>
+                            <li>download the xml scores <a href="{{ url_for('static', filename='example1.xml') }}">Song 1</a> and <a href="{{ url_for('static', filename='example2.xml') }}">Song 2</a>
+                                (right-click on the links and "Save link as")</li>
+                            <li>upload the 2 xml files downloaded in the form below and click the button "Upload Songs"</li>
+                            <li>a new page will be opened in which the music scores will be displayed; then click "Check for Plagiarism" to check if a plagiarism occurs!</li>
+                        </ol>
+                    </div>
+            </form>
+      <!-- FORM END -->
+</div>
+{% if not current_user.is_authenticated %}
+<div class="border-top pt-3">
+    <small class="text-muted">
+        Want to login first ? <a class="ml-2" href="{{ url_for('users.login') }}">Sign In</a>
+    </small>
+</div>
+{% endif %}
+
+
+{% endblock content%}

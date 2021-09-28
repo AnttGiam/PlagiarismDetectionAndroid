@@ -1,0 +1,116 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1> Results Page : </h1>
+{% endblock content %}
+{% block additional_content %}
+
+<div class="row">
+    <div class="col-md-6">
+        {% with messages = get_flashed_messages(with_categories=true) %} <!-- accettiamo le categorie -->
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{ category }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <!-- Test per variabili passate da route -->
+        {% if chValues and chLabels and (clust or clust==0) and thres and avg and resultKind %}
+        {% set valMet1 = chValues[0] %}
+        {% set valMet2 = chValues[1] %}
+        {% set valMet3 = chValues[2] %}
+        {% set nameMet1 = chLabels[0] %}
+        {% set nameMet2 = chLabels[1] %}
+        {% set nameMet3 = chLabels[2] %}
+        {% else %}
+        <h2> ERRORE CON I VALORI << I valori seguenti sono valori fasulli. << Riavviare il sistema o tentare più tardi.</h2>
+        {% set valMet1 = 11 %}
+        {% set valMet2 = 12 %}
+        {% set valMet3 = 13 %}
+        {% set nameMet1 = 'met1' %}
+        {% set nameMet2 = 'met2' %}
+        {% set nameMet3 = 'met3' %}
+        {% set clust = 2 %}
+        {% set thres = 50 %}
+        {% set avg = 15 %}
+        {% set resultKind = 'FP' %}
+        {% endif %}
+        <script type="text/javascript" src="{{ url_for('static', filename='myChart.js')}}"></script> <!-- importo metodo js -->
+        <canvas id="myBarChart" width="500" height="400"></canvas> <!-- creazione canvas per il chart -->
+        <script type="text/javascript">
+           createChart({{nameMet1|tojson}},{{nameMet2|tojson}},{{nameMet3|tojson}},{{valMet1|tojson}},{{valMet2|tojson}},{{valMet3|tojson}});
+        </script> <!-- utilizzo metodo js per mostrare il canvas con le info-->
+    </div>
+    <div class="col-md-4">
+
+        {% if resultKind == 'TP' %}  <!-- Plagio -->
+            <div class="mt-5 rounded content-section bg-danger bg-darken-3">  <!-- div contenente il quadrato -->
+                <h3 class="text-white">Results: </h3>
+                <table class="table table-hover">
+                  <tbody>
+                    <tr class="text-white">
+                      <td>Plagiarism</td>
+                      <td>Detected</td>
+                    </tr>
+        {% elif resultKind == 'FP' %}  <!-- Non Plagio -->
+            <div class="mt-5 bg-success rounded content-section "> <!-- altro div contenente il quadrato -->
+                <h3 class="text-white">Results: </h3>
+                <table class="table table-hover">
+                  <tbody>
+                    <tr class="text-white">
+                      <td>Plagiarism</td>
+                      <td>Not Detected</td>
+                    </tr>
+        {% endif %}
+                    <tr class="text-white">
+                        <td>Percentage</td>
+                        <td>{{avg}}%</td>
+                    </tr>
+                    <tr class="text-white">
+                        <td>Clustering</td>
+            {% if clust==0 or clust==1 %}
+                        <td>Used</td>
+            {% elif clust==2 %}
+                        <td>Not Used</td>
+            {% else %}
+                        <td>Not Valid</td>
+            {% endif %}
+                    </tr>
+                    <tr class="text-white">
+                        <td>Threshold</td>
+                        <td>{{thres}}%</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div> <!-- div CHIUSURA di quello contenente il quadrato -->
+
+        <!-- CONTROLLO SUI VALORI PER L'AGGIUNTA AL DATASET ( NOTA: ROC SIGNIFICA RESULT OF CONFRONTATION OVVERO SE E' FP/TP -->
+        <!-- aggiornato con resultKind = tp o fp, settato nella tabella -->
+
+            {% if current_user.is_authenticated %}
+            <button id="btnAddResult" class="content-section btn btn-outline-info" onClick="addResults()">
+                Add New Case
+            </button>
+            {% else %}
+            <div class="border-top pt-3">
+                <small class="text-muted">
+                    Log in as an administrator to add to dataset <a class="ml-2" href="{{ url_for('users.login') }}">Log In</a>
+                </small>
+            </div>
+            {% endif %}
+
+            <!-- script di caricamento per il pulsante -->
+            <script>
+                function addResults() {
+                    location.href = "{{ url_for('sentences.new_sentence_after_check', cv=clust, roc=resultKind) }}";
+                    }
+            </script>
+    </div>  <!-- chiusura del div della classe row 4 --> <!-- ################################################ -->
+
+    <div class="col-md-2"> <!-- div di test per fare un offset-->
+    </div>
+</div> <!-- chiusura della row molte cose non si vedono in quanto dentro l'if di python-->
+
+{% endblock additional_content %}

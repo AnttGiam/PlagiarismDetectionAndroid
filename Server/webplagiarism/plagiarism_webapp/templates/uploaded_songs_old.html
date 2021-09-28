@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block content %}  <!-- viene messo tutto in un  div class="col-md-8 offset-md-2" -->
+    <!-- mostriamo i nomi dei file caricati -->
+    <div class="content-section">
+        <div class="form-group">
+            <legend class="border-bottom mb-4">Files Uploaded:</legend>
+            <h5> Song1 = {{ song1 }}</h5>
+            <h5> Song2 = {{ song2 }}</h5>
+        </div>
+<!-- pulsante per il check del plagio, verrà disabilitato quando cliccato, mostrando il caricamento -->
+    <button id="btn" class="content-section btn btn-outline-info" onClick="button_clicked()">
+        Check for Plagiarism
+    </button>
+    <!-- loading wheel,nascosta fino al click del pulsante-->
+        <div id="loading" class="spinner-border" style="width: 3rem; height: 3rem; display:none;" role="status">
+        <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <script>
+        function button_clicked() {
+            location.href = "{{ url_for('main.results') }}";
+            show_loading();
+        }
+
+        function show_loading() {
+            $("#" + 'loading').toggle();
+            btn = document.getElementById('btn')
+            btn.disabled = true
+        }
+    </script>
+    {% endblock content%}
+    {% block additional_content %}
+    <div class="col-md-12">
+	    <iframe src="{{ url_for('main.player', song_name=song1) }}" width="1000" height="450"></iframe>
+        <iframe src="{{ url_for('main.player', song_name=song2) }}" width="1000" height="450"></iframe>
+	</div>
+    {% endblock additional_content %}
+
+    <!-- piccolo script per attivare loading div e disattivare beforeclick div -->
+    <!-- loaders presi da qui: https://www.w3schools.com/howto/howto_css_loader.asp -->

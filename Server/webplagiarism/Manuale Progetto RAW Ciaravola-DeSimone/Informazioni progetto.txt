@@ -1,0 +1,48 @@
+Il progetto è strutturato come segue:
+
+plagiarism_webapp -> cartella che include tutte le blueprint ( cartelle / package )
+venv -> ambiente virtuale del progetto
+requirements.txt -> moduli richiesti dal progetto
+run.py -> script che fa partire l'applicazione
+
+
+
+
+STRUTTURA DEL PACKAGE PLAGIARISM_WEBAPP
+
+errors -> package che contiene il gestore degli errori
+main -> parte principale dell'applicazione, convesioni delle metriche e parti utili del progetto legacy
+sentences -> package che gestisce i form, le routes e metodi utili inerenti i casi
+static -> cartella che contiene: vedi sotto
+templates -> contiene le pagine html
+users -> package che gestisce i form, le routes e metodi utili inerenti gli utenti
+site.db -> database del progetto
+__init__.py -> crea le istanze e definisce il metodo create_app() che si basa sul file config.py
+config.py -> tiene le informazioni di configurazione e le variabili d'ambiente
+models.py -> definisce le classi con SQLAlchemy, le classi si chiamano user e sentence (che sono le nostre tabelle nel database) e sono collegate tramite relazione
+
+
+
+
+DEFINIZIONE DELLE CARTELLE IN STATIC
+
+last_check_temp_files: contiene  le informazioni e i risultati generati dall'ultimo controllo di plagio generato e serve per copiare comodamente le informazioni da static alla cartella corrispondete della sentenza relata. Contiene due cartelle, 2 file xml e un file di testo con le informazioni appena calcolate
+
+layout_images: contiene immagini e loghi del sito
+profile_pics le immagini dei profili degli utenti 
+sentence_icons le icone delle sentenze
+
+saved_sentences: contiene le cartelle ID sentenza. All'interno di ogni cartella passiamo due cartelle per il funzionamento dell'LCS (color_parts_lcs1/2), due files xml corrispondenti ai file delle canzoni, il file result_values.txt che memorizza i valori del check plagio e, se presente, un file verdict.pdf che corrisponde al verdetto della sentenza.
+
+main.css stylesheet css del progetto
+chart.min.js file javascript che contiene le informaxzioni per creare il grafico
+myChart.js metodo creato da noi per creare un grafico sfruttando il file chart.min.js
+
+
+
+
+ACCOUNT TEST GIA' PRESENTI NEL DB
+mariorossi@gmail.com
+mariodraghi@gmail.com
+giuseppeverdi@gmail.com
+password uguale per tutti e tre gli account: test 

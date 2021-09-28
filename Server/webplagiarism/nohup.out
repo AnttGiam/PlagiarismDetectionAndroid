@@ -1,0 +1,3091 @@
+2021-05-17 11:30:15.498450: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-05-17 11:30:15.498532: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+/home/zaccagnino/webplagiarism/env/lib64/python3.6/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+music21: Certain music21 functions might need the optional package matplotlib;
+                  if you run into errors, install it by following the instructions at
+                  http://mit.edu/music21/doc/installing/installAdditional.html
+WARNING:waitress.queue:Task queue depth is 1
+WARNING:waitress.queue:Task queue depth is 1
+mxl file found:	 example1.xml
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 1.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 4.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 4.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+CNTGENEARAL: 93
+C4 5
+[<plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe130f28>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe1305f8>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe1309b0>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe1308d0>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe130908>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe130780>]
+4   5   0.053763440860215055
+2   12   0.12903225806451613
+1   22   0.23655913978494625
+0.5   60   0.6451612903225806
+0.25   0   0.0
+0.125   0   0.0
+MIND:  0.5
+pitch, duration_string, duration, tie, midi pitch, octave
+...  0  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  1
+...  1  ...
+NOTA
+indice utile aggiornato in note:  1
+INDICE : -1
+NON FARE NULLA
+G4, quarter, 1.0, , 67.0, 4
+...  2  ...
+NOTA
+indice utile aggiornato in note:  2
+termina
+INDICE : 1
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  3  ...
+NOTA
+indice utile aggiornato in note:  3
+termina
+INDICE : 2
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  4  ...
+NOTA
+indice utile aggiornato in note:  4
+termina
+INDICE : 3
+OPERAZIONE:  62.0  -  62.0
+D4, whole, 4.0, , 62.0, 4
+...  5  ...
+NOTA
+indice utile aggiornato in note:  5
+termina
+INDICE : 4
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  6  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  7
+...  7  ...
+NOTA
+indice utile aggiornato in note:  7
+termina
+INDICE : 5
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  8  ...
+NOTA
+indice utile aggiornato in note:  8
+termina
+INDICE : 7
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  9  ...
+NOTA
+indice utile aggiornato in note:  9
+termina
+INDICE : 8
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  10  ...
+NOTA
+indice utile aggiornato in note:  10
+termina
+INDICE : 9
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  11  ...
+NOTA
+indice utile aggiornato in note:  11
+termina
+INDICE : 10
+OPERAZIONE:  64.0  -  62.0
+E4, whole, 4.0, , 64.0, 4
+...  12  ...
+NOTA
+indice utile aggiornato in note:  12
+termina
+INDICE : 11
+OPERAZIONE:  62.0  -  64.0
+D4, quarter, 1.0, , 62.0, 4
+...  13  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  14
+...  14  ...
+NOTA
+indice utile aggiornato in note:  14
+termina
+INDICE : 12
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  15  ...
+NOTA
+indice utile aggiornato in note:  15
+termina
+INDICE : 14
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  16  ...
+NOTA
+indice utile aggiornato in note:  16
+termina
+INDICE : 15
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  17  ...
+NOTA
+indice utile aggiornato in note:  17
+termina
+INDICE : 16
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  18  ...
+NOTA
+indice utile aggiornato in note:  18
+termina
+INDICE : 17
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  19  ...
+NOTA
+indice utile aggiornato in note:  19
+termina
+INDICE : 18
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  20  ...
+NOTA
+indice utile aggiornato in note:  20
+termina
+INDICE : 19
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  21  ...
+NOTA
+indice utile aggiornato in note:  21
+termina
+INDICE : 20
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  22  ...
+NOTA
+indice utile aggiornato in note:  22
+termina
+INDICE : 21
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  23  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  24
+...  24  ...
+NOTA
+indice utile aggiornato in note:  24
+termina
+INDICE : 22
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  25  ...
+NOTA
+indice utile aggiornato in note:  25
+termina
+INDICE : 24
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  26  ...
+NOTA
+indice utile aggiornato in note:  26
+termina
+INDICE : 25
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  27  ...
+NOTA
+indice utile aggiornato in note:  27
+termina
+INDICE : 26
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  28  ...
+NOTA
+indice utile aggiornato in note:  28
+termina
+INDICE : 27
+OPERAZIONE:  64.0  -  64.0
+E4, quarter, 1.0, , 64.0, 4
+...  29  ...
+NOTA
+indice utile aggiornato in note:  29
+termina
+INDICE : 28
+OPERAZIONE:  60.0  -  64.0
+C4, quarter, 1.0, , 60.0, 4
+...  30  ...
+NOTA
+indice utile aggiornato in note:  30
+termina
+INDICE : 29
+OPERAZIONE:  64.0  -  60.0
+E4, eighth, 0.5, , 64.0, 4
+...  31  ...
+NOTA
+indice utile aggiornato in note:  31
+termina
+INDICE : 30
+OPERAZIONE:  62.0  -  64.0
+D4, quarter, 1.5, , 62.0, 4
+...  32  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  33
+...  33  ...
+NOTA
+indice utile aggiornato in note:  33
+termina
+INDICE : 31
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  34  ...
+NOTA
+indice utile aggiornato in note:  34
+termina
+INDICE : 33
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  35  ...
+NOTA
+indice utile aggiornato in note:  35
+termina
+INDICE : 34
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  36  ...
+NOTA
+indice utile aggiornato in note:  36
+termina
+INDICE : 35
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  37  ...
+NOTA
+indice utile aggiornato in note:  37
+termina
+INDICE : 36
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  38  ...
+NOTA
+indice utile aggiornato in note:  38
+termina
+INDICE : 37
+OPERAZIONE:  72.0  -  67.0
+C5, eighth, 0.5, , 72.0, 5
+...  39  ...
+NOTA
+indice utile aggiornato in note:  39
+termina
+INDICE : 38
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  40  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  41
+...  41  ...
+NOTA
+indice utile aggiornato in note:  41
+termina
+INDICE : 39
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  42  ...
+start
+...  43  ...
+stop
+INDICE : 40
+...  44  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  45
+...  45  ...
+NOTA
+indice utile aggiornato in note:  45
+termina
+INDICE : 43
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  46  ...
+NOTA
+indice utile aggiornato in note:  46
+termina
+INDICE : 45
+OPERAZIONE:  69.0  -  67.0
+A4, quarter, 1.0, , 69.0, 4
+...  47  ...
+NOTA
+indice utile aggiornato in note:  47
+termina
+INDICE : 46
+OPERAZIONE:  74.0  -  69.0
+D5, eighth, 0.5, , 74.0, 5
+...  48  ...
+NOTA
+indice utile aggiornato in note:  48
+termina
+INDICE : 47
+OPERAZIONE:  72.0  -  74.0
+C5, eighth, 0.5, , 72.0, 5
+...  49  ...
+NOTA
+indice utile aggiornato in note:  49
+termina
+INDICE : 48
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  50  ...
+NOTA
+indice utile aggiornato in note:  50
+termina
+INDICE : 49
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  51  ...
+NOTA
+indice utile aggiornato in note:  51
+termina
+INDICE : 50
+OPERAZIONE:  72.0  -  69.0
+C5, whole, 4.0, , 72.0, 5
+...  52  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  53
+...  53  ...
+NOTA
+indice utile aggiornato in note:  53
+termina
+INDICE : 51
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  54  ...
+NOTA
+indice utile aggiornato in note:  54
+termina
+INDICE : 53
+OPERAZIONE:  69.0  -  67.0
+A4, quarter, 1.0, , 69.0, 4
+...  55  ...
+NOTA
+indice utile aggiornato in note:  55
+termina
+INDICE : 54
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  56  ...
+NOTA
+indice utile aggiornato in note:  56
+termina
+INDICE : 55
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  57  ...
+NOTA
+indice utile aggiornato in note:  57
+termina
+INDICE : 56
+OPERAZIONE:  72.0  -  69.0
+C5, quarter, 1.0, , 72.0, 5
+...  58  ...
+NOTA
+indice utile aggiornato in note:  58
+termina
+INDICE : 57
+OPERAZIONE:  74.0  -  72.0
+D5, quarter, 1.0, , 74.0, 5
+...  59  ...
+NOTA
+indice utile aggiornato in note:  59
+termina
+INDICE : 58
+OPERAZIONE:  69.0  -  74.0
+A4, eighth, 0.5, , 69.0, 4
+...  60  ...
+NOTA
+indice utile aggiornato in note:  60
+termina
+INDICE : 59
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  61  ...
+NOTA
+indice utile aggiornato in note:  61
+termina
+INDICE : 60
+OPERAZIONE:  72.0  -  69.0
+C5, half, 2.0, , 72.0, 5
+...  62  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  63
+...  63  ...
+NOTA
+indice utile aggiornato in note:  63
+termina
+INDICE : 61
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  64  ...
+NOTA
+indice utile aggiornato in note:  64
+termina
+INDICE : 63
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  65  ...
+NOTA
+indice utile aggiornato in note:  65
+termina
+INDICE : 64
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  66  ...
+NOTA
+indice utile aggiornato in note:  66
+termina
+INDICE : 65
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  67  ...
+NOTA
+indice utile aggiornato in note:  67
+termina
+INDICE : 66
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  68  ...
+NOTA
+indice utile aggiornato in note:  68
+termina
+INDICE : 67
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  69  ...
+NOTA
+indice utile aggiornato in note:  69
+termina
+INDICE : 68
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  70  ...
+NOTA
+indice utile aggiornato in note:  70
+termina
+INDICE : 69
+OPERAZIONE:  72.0  -  72.0
+C5, whole, 4.0, , 72.0, 5
+...  71  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  72
+...  72  ...
+NOTA
+indice utile aggiornato in note:  72
+termina
+INDICE : 70
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  73  ...
+NOTA
+indice utile aggiornato in note:  73
+termina
+INDICE : 72
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  74  ...
+NOTA
+indice utile aggiornato in note:  74
+termina
+INDICE : 73
+OPERAZIONE:  67.0  -  64.0
+G4, eighth, 0.5, , 67.0, 4
+...  75  ...
+NOTA
+indice utile aggiornato in note:  75
+termina
+INDICE : 74
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  76  ...
+NOTA
+indice utile aggiornato in note:  76
+termina
+INDICE : 75
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  77  ...
+NOTA
+indice utile aggiornato in note:  77
+termina
+INDICE : 76
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  78  ...
+NOTA
+indice utile aggiornato in note:  78
+termina
+INDICE : 77
+OPERAZIONE:  62.0  -  64.0
+D4, whole, 4.0, , 62.0, 4
+...  79  ...
+NOTA
+indice utile aggiornato in note:  79
+termina
+INDICE : 78
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  80  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  81
+...  81  ...
+NOTA
+indice utile aggiornato in note:  81
+termina
+INDICE : 79
+OPERAZIONE:  67.0  -  62.0
+G4, quarter, 1.0, , 67.0, 4
+...  82  ...
+NOTA
+indice utile aggiornato in note:  82
+termina
+INDICE : 81
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  83  ...
+NOTA
+indice utile aggiornato in note:  83
+termina
+INDICE : 82
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  84  ...
+NOTA
+indice utile aggiornato in note:  84
+termina
+INDICE : 83
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  85  ...
+NOTA
+indice utile aggiornato in note:  85
+termina
+INDICE : 84
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  86  ...
+NOTA
+indice utile aggiornato in note:  86
+termina
+INDICE : 85
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  87  ...
+NOTA
+indice utile aggiornato in note:  87
+termina
+INDICE : 86
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  88  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  89
+...  89  ...
+NOTA
+indice utile aggiornato in note:  89
+termina
+INDICE : 87
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  90  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  91
+...  91  ...
+NOTA
+indice utile aggiornato in note:  91
+termina
+INDICE : 89
+OPERAZIONE:  67.0  -  62.0
+G4, quarter, 1.0, , 67.0, 4
+...  92  ...
+NOTA
+indice utile aggiornato in note:  92
+termina
+INDICE : 91
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  93  ...
+NOTA
+indice utile aggiornato in note:  93
+termina
+INDICE : 92
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  94  ...
+NOTA
+indice utile aggiornato in note:  94
+termina
+INDICE : 93
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  95  ...
+NOTA
+indice utile aggiornato in note:  95
+termina
+INDICE : 94
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  96  ...
+NOTA
+indice utile aggiornato in note:  96
+termina
+INDICE : 95
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  97  ...
+NOTA
+indice utile aggiornato in note:  97
+termina
+INDICE : 96
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  98  ...
+NOTA
+indice utile aggiornato in note:  98
+termina
+INDICE : 97
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  99  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  100
+...  100  ...
+NOTA
+indice utile aggiornato in note:  100
+termina
+INDICE : 98
+OPERAZIONE:  62.0  -  62.0
+D4, eighth, 0.5, , 62.0, 4
+...  101  ...
+NOTA
+indice utile aggiornato in note:  101
+termina
+INDICE : 100
+OPERAZIONE:  60.0  -  62.0
+C4, eighth, 0.5, , 60.0, 4
+...  102  ...
+NOTA
+indice utile aggiornato in note:  102
+termina
+INDICE : 101
+OPERAZIONE:  67.0  -  60.0
+G4, quarter, 1.0, , 67.0, 4
+...  103  ...
+NOTA
+indice utile aggiornato in note:  103
+termina
+INDICE : 102
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  104  ...
+NOTA
+indice utile aggiornato in note:  104
+termina
+INDICE : 103
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  105  ...
+NOTA
+indice utile aggiornato in note:  105
+termina
+INDICE : 104
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  106  ...
+NOTA
+indice utile aggiornato in note:  106
+termina
+INDICE : 105
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  107  ...
+NOTA
+indice utile aggiornato in note:  107
+termina
+INDICE : 106
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  108  ...
+NOTA
+indice utile aggiornato in note:  108
+termina
+INDICE : 107
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+pbbbbbb-3b-2b0bbbbbbbb0bbpbb+5b0b-3b-2b+2bbbbbbbb-2bbpb+5b0bb-3bb-2b+2b-4b+2b0bbbb0bbpb+5b0bb0b-3b0bb-4bb+4b-2bbbpb+5b0b+2b+3b-5b+5b-3bpbbbb+3bpb-5b+2bb+5b-2b0b-3b+3bbbbbbbbpb-5b+2bb+3b-3b+3bb+2bb-5b0b+3bbbbpb-5b+2b+3b0b-3b+3b0b0bbbbbbbbpb-5b-3b+3b0b0bb-3b-2bbbbbbbb0bbpbb+5bb-3bb-2b+2b-4b+2b0bbbbpbb0bbpbb+5bb-3bb-2b+2b-4b+2b0bbbb0bbpb0b-2b+7bb-3b-2b+2b-4b+2b0bbbb
+Done.
+mxl file found:	 example2.xml
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note B->
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note E->
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+CNTGENEARAL: 54
+C4 0
+[<plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd858e80>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd858d30>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdfd47b8>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdfd4860>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fe1006a0>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdc574e0>]
+4   0   0.0
+2   0   0.0
+1   11   0.2037037037037037
+0.5   43   0.7962962962962963
+0.25   0   0.0
+0.125   0   0.0
+MIND:  0.5
+pitch, duration_string, duration, tie, midi pitch, octave
+...  0  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  9
+...  9  ...
+NOTA
+indice utile aggiornato in note:  9
+INDICE : -1
+NON FARE NULLA
+C5, eighth, 0.5, , 72.0, 5
+...  10  ...
+NOTA
+indice utile aggiornato in note:  10
+termina
+INDICE : 9
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  11  ...
+NOTA
+indice utile aggiornato in note:  11
+termina
+INDICE : 10
+OPERAZIONE:  69.0  -  72.0
+A4, quarter, 1.0, , 69.0, 4
+...  12  ...
+NOTA
+indice utile aggiornato in note:  12
+termina
+INDICE : 11
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  13  ...
+NOTA
+indice utile aggiornato in note:  13
+termina
+INDICE : 12
+OPERAZIONE:  69.0  -  69.0
+A4, quarter, 1.0, , 69.0, 4
+...  14  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  17
+...  17  ...
+NOTA
+indice utile aggiornato in note:  17
+termina
+INDICE : 13
+OPERAZIONE:  72.0  -  69.0
+C5, quarter, 1.5, , 72.0, 5
+...  18  ...
+NOTA
+indice utile aggiornato in note:  18
+termina
+INDICE : 17
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  19  ...
+NOTA
+indice utile aggiornato in note:  19
+termina
+INDICE : 18
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  20  ...
+NOTA
+indice utile aggiornato in note:  20
+termina
+INDICE : 19
+OPERAZIONE:  67.0  -  69.0
+G4, eighth, 0.5, , 67.0, 4
+...  21  ...
+NOTA
+indice utile aggiornato in note:  21
+termina
+INDICE : 20
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  22  ...
+NOTA
+indice utile aggiornato in note:  22
+termina
+INDICE : 21
+OPERAZIONE:  67.0  -  69.0
+G4, quarter, 1.0, , 67.0, 4
+...  23  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  26
+...  26  ...
+NOTA
+indice utile aggiornato in note:  26
+termina
+INDICE : 22
+OPERAZIONE:  72.0  -  67.0
+C5, quarter, 1.5, , 72.0, 5
+...  27  ...
+NOTA
+indice utile aggiornato in note:  27
+termina
+INDICE : 26
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  28  ...
+NOTA
+indice utile aggiornato in note:  28
+termina
+INDICE : 27
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  29  ...
+NOTA
+indice utile aggiornato in note:  29
+termina
+INDICE : 28
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  30  ...
+NOTA
+indice utile aggiornato in note:  30
+termina
+INDICE : 29
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  31  ...
+NOTA
+indice utile aggiornato in note:  31
+termina
+INDICE : 30
+OPERAZIONE:  67.0  -  69.0
+G4, quarter, 1.0, , 67.0, 4
+...  32  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  36
+...  36  ...
+NOTA
+indice utile aggiornato in note:  36
+termina
+INDICE : 31
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  37  ...
+NOTA
+indice utile aggiornato in note:  37
+termina
+INDICE : 36
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  38  ...
+NOTA
+indice utile aggiornato in note:  38
+termina
+INDICE : 37
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  39  ...
+NOTA
+indice utile aggiornato in note:  39
+termina
+INDICE : 38
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  40  ...
+NOTA
+indice utile aggiornato in note:  40
+termina
+INDICE : 39
+OPERAZIONE:  74.0  -  77.0
+D5, eighth, 0.5, , 74.0, 5
+...  41  ...
+NOTA
+indice utile aggiornato in note:  41
+termina
+INDICE : 40
+OPERAZIONE:  77.0  -  74.0
+F5, quarter, 1.0, , 77.0, 5
+...  42  ...
+NOTA
+indice utile aggiornato in note:  42
+termina
+INDICE : 41
+OPERAZIONE:  77.0  -  77.0
+F5, quarter, 1.0, , 77.0, 5
+...  43  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  45
+...  45  ...
+NOTA
+indice utile aggiornato in note:  45
+termina
+INDICE : 42
+OPERAZIONE:  72.0  -  77.0
+C5, eighth, 0.5, , 72.0, 5
+...  46  ...
+NOTA
+indice utile aggiornato in note:  46
+termina
+INDICE : 45
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  47  ...
+NOTA
+indice utile aggiornato in note:  47
+termina
+INDICE : 46
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  48  ...
+NOTA
+indice utile aggiornato in note:  48
+termina
+INDICE : 47
+OPERAZIONE:  74.0  -  77.0
+D5, eighth, 0.5, , 74.0, 5
+...  49  ...
+NOTA
+indice utile aggiornato in note:  49
+termina
+INDICE : 48
+OPERAZIONE:  77.0  -  74.0
+F5, quarter, 1.0, , 77.0, 5
+...  50  ...
+NOTA
+indice utile aggiornato in note:  50
+termina
+INDICE : 49
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  51  ...
+NOTA
+indice utile aggiornato in note:  51
+termina
+INDICE : 50
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  52  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  54
+...  54  ...
+NOTA
+indice utile aggiornato in note:  54
+termina
+INDICE : 51
+OPERAZIONE:  72.0  -  77.0
+C5, eighth, 0.5, , 72.0, 5
+...  55  ...
+NOTA
+indice utile aggiornato in note:  55
+termina
+INDICE : 54
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  56  ...
+NOTA
+indice utile aggiornato in note:  56
+termina
+INDICE : 55
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  57  ...
+NOTA
+indice utile aggiornato in note:  57
+termina
+INDICE : 56
+OPERAZIONE:  74.0  -  77.0
+D5, eighth, 0.5, , 74.0, 5
+...  58  ...
+NOTA
+indice utile aggiornato in note:  58
+termina
+INDICE : 57
+OPERAZIONE:  77.0  -  74.0
+F5, quarter, 1.0, , 77.0, 5
+...  59  ...
+NOTA
+indice utile aggiornato in note:  59
+termina
+INDICE : 58
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  60  ...
+NOTA
+indice utile aggiornato in note:  60
+termina
+INDICE : 59
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  61  ...
+NOTA
+indice utile aggiornato in note:  61
+termina
+INDICE : 60
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  62  ...
+NOTA
+indice utile aggiornato in note:  62
+termina
+INDICE : 61
+OPERAZIONE:  69.0  -  77.0
+A4, eighth, 0.5, , 69.0, 4
+...  63  ...
+NOTA
+indice utile aggiornato in note:  63
+termina
+INDICE : 62
+OPERAZIONE:  70.0  -  69.0
+B-4, eighth, 0.5, , 70.0, 4
+...  64  ...
+NOTA
+indice utile aggiornato in note:  64
+termina
+INDICE : 63
+OPERAZIONE:  72.0  -  70.0
+C5, eighth, 0.5, , 72.0, 5
+...  65  ...
+NOTA
+indice utile aggiornato in note:  65
+termina
+INDICE : 64
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  66  ...
+NOTA
+indice utile aggiornato in note:  66
+termina
+INDICE : 65
+OPERAZIONE:  75.0  -  72.0
+E-5, eighth, 0.5, , 75.0, 5
+...  67  ...
+NOTA
+indice utile aggiornato in note:  67
+termina
+INDICE : 66
+OPERAZIONE:  74.0  -  75.0
+D5, eighth, 0.5, , 74.0, 5
+...  68  ...
+NOTA
+indice utile aggiornato in note:  68
+termina
+INDICE : 67
+OPERAZIONE:  72.0  -  74.0
+C5, eighth, 0.5, , 72.0, 5
+...  69  ...
+NOTA
+indice utile aggiornato in note:  69
+termina
+INDICE : 68
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  70  ...
+NOTA
+indice utile aggiornato in note:  70
+termina
+INDICE : 69
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  71  ...
+NOTA
+indice utile aggiornato in note:  71
+termina
+INDICE : 70
+OPERAZIONE:  67.0  -  69.0
+G4, eighth, 0.5, , 67.0, 4
+...  72  ...
+NOTA
+indice utile aggiornato in note:  72
+termina
+INDICE : 71
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  73  ...
+NOTA
+indice utile aggiornato in note:  73
+termina
+INDICE : 72
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  74  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  77
+...  77  ...
+NOTA
+indice utile aggiornato in note:  77
+termina
+INDICE : 73
+OPERAZIONE:  72.0  -  67.0
+C5, quarter, 1.0, , 72.0, 5
+...  78  ...
+NOTA
+indice utile aggiornato in note:  78
+termina
+INDICE : 77
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  79  ...
+NOTA
+indice utile aggiornato in note:  79
+termina
+INDICE : 78
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  80  ...
+NOTA
+indice utile aggiornato in note:  80
+termina
+INDICE : 79
+OPERAZIONE:  69.0  -  69.0
+A4, quarter, 1.0, , 69.0, 4
+...  81  ...
+NOTA
+indice utile aggiornato in note:  81
+termina
+INDICE : 80
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+pbbbbbbbb0b-3bb0b0bbpbb+3bbb0b-3b-2b+2b-2bbpbb+5bbb0b-3b0b0b-2bbpbb+2b+3b+2b+3b-3b+3bb0bbpbbbb-5b+2b+3b-3b+3bb0b0bpbbbb-5b+2b+3b-3b+3bb0b0b0b-8b+1b+2b0b+3b-1b-2b0b-3b-2b0b0bbpbb+5bb-3b0b0bb0b
+Done.
+Total files found:	 2
+-------- END ----------
+mxl file found:	 example1.xml
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 1.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 4.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 4.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 4.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 1.0
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+<music21.note.Note D>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note E>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 2.0
+CNTGENEARAL: 93
+C4 5
+[<plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf70748>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf709e8>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf67c18>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf67cc0>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf67e10>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdf67b70>]
+4   5   0.053763440860215055
+2   12   0.12903225806451613
+1   22   0.23655913978494625
+0.5   60   0.6451612903225806
+0.25   0   0.0
+0.125   0   0.0
+MIND:  0.5
+pitch, duration_string, duration, tie, midi pitch, octave
+...  0  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  1
+...  1  ...
+NOTA
+indice utile aggiornato in note:  1
+INDICE : -1
+NON FARE NULLA
+G4, quarter, 1.0, , 67.0, 4
+...  2  ...
+NOTA
+indice utile aggiornato in note:  2
+termina
+INDICE : 1
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  3  ...
+NOTA
+indice utile aggiornato in note:  3
+termina
+INDICE : 2
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  4  ...
+NOTA
+indice utile aggiornato in note:  4
+termina
+INDICE : 3
+OPERAZIONE:  62.0  -  62.0
+D4, whole, 4.0, , 62.0, 4
+...  5  ...
+NOTA
+indice utile aggiornato in note:  5
+termina
+INDICE : 4
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  6  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  7
+...  7  ...
+NOTA
+indice utile aggiornato in note:  7
+termina
+INDICE : 5
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  8  ...
+NOTA
+indice utile aggiornato in note:  8
+termina
+INDICE : 7
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  9  ...
+NOTA
+indice utile aggiornato in note:  9
+termina
+INDICE : 8
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  10  ...
+NOTA
+indice utile aggiornato in note:  10
+termina
+INDICE : 9
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  11  ...
+NOTA
+indice utile aggiornato in note:  11
+termina
+INDICE : 10
+OPERAZIONE:  64.0  -  62.0
+E4, whole, 4.0, , 64.0, 4
+...  12  ...
+NOTA
+indice utile aggiornato in note:  12
+termina
+INDICE : 11
+OPERAZIONE:  62.0  -  64.0
+D4, quarter, 1.0, , 62.0, 4
+...  13  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  14
+...  14  ...
+NOTA
+indice utile aggiornato in note:  14
+termina
+INDICE : 12
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  15  ...
+NOTA
+indice utile aggiornato in note:  15
+termina
+INDICE : 14
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  16  ...
+NOTA
+indice utile aggiornato in note:  16
+termina
+INDICE : 15
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  17  ...
+NOTA
+indice utile aggiornato in note:  17
+termina
+INDICE : 16
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  18  ...
+NOTA
+indice utile aggiornato in note:  18
+termina
+INDICE : 17
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  19  ...
+NOTA
+indice utile aggiornato in note:  19
+termina
+INDICE : 18
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  20  ...
+NOTA
+indice utile aggiornato in note:  20
+termina
+INDICE : 19
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  21  ...
+NOTA
+indice utile aggiornato in note:  21
+termina
+INDICE : 20
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  22  ...
+NOTA
+indice utile aggiornato in note:  22
+termina
+INDICE : 21
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  23  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  24
+...  24  ...
+NOTA
+indice utile aggiornato in note:  24
+termina
+INDICE : 22
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  25  ...
+NOTA
+indice utile aggiornato in note:  25
+termina
+INDICE : 24
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  26  ...
+NOTA
+indice utile aggiornato in note:  26
+termina
+INDICE : 25
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  27  ...
+NOTA
+indice utile aggiornato in note:  27
+termina
+INDICE : 26
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  28  ...
+NOTA
+indice utile aggiornato in note:  28
+termina
+INDICE : 27
+OPERAZIONE:  64.0  -  64.0
+E4, quarter, 1.0, , 64.0, 4
+...  29  ...
+NOTA
+indice utile aggiornato in note:  29
+termina
+INDICE : 28
+OPERAZIONE:  60.0  -  64.0
+C4, quarter, 1.0, , 60.0, 4
+...  30  ...
+NOTA
+indice utile aggiornato in note:  30
+termina
+INDICE : 29
+OPERAZIONE:  64.0  -  60.0
+E4, eighth, 0.5, , 64.0, 4
+...  31  ...
+NOTA
+indice utile aggiornato in note:  31
+termina
+INDICE : 30
+OPERAZIONE:  62.0  -  64.0
+D4, quarter, 1.5, , 62.0, 4
+...  32  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  33
+...  33  ...
+NOTA
+indice utile aggiornato in note:  33
+termina
+INDICE : 31
+OPERAZIONE:  67.0  -  62.0
+G4, eighth, 0.5, , 67.0, 4
+...  34  ...
+NOTA
+indice utile aggiornato in note:  34
+termina
+INDICE : 33
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  35  ...
+NOTA
+indice utile aggiornato in note:  35
+termina
+INDICE : 34
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  36  ...
+NOTA
+indice utile aggiornato in note:  36
+termina
+INDICE : 35
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  37  ...
+NOTA
+indice utile aggiornato in note:  37
+termina
+INDICE : 36
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  38  ...
+NOTA
+indice utile aggiornato in note:  38
+termina
+INDICE : 37
+OPERAZIONE:  72.0  -  67.0
+C5, eighth, 0.5, , 72.0, 5
+...  39  ...
+NOTA
+indice utile aggiornato in note:  39
+termina
+INDICE : 38
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  40  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  41
+...  41  ...
+NOTA
+indice utile aggiornato in note:  41
+termina
+INDICE : 39
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  42  ...
+start
+...  43  ...
+stop
+INDICE : 40
+...  44  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  45
+...  45  ...
+NOTA
+indice utile aggiornato in note:  45
+termina
+INDICE : 43
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  46  ...
+NOTA
+indice utile aggiornato in note:  46
+termina
+INDICE : 45
+OPERAZIONE:  69.0  -  67.0
+A4, quarter, 1.0, , 69.0, 4
+...  47  ...
+NOTA
+indice utile aggiornato in note:  47
+termina
+INDICE : 46
+OPERAZIONE:  74.0  -  69.0
+D5, eighth, 0.5, , 74.0, 5
+...  48  ...
+NOTA
+indice utile aggiornato in note:  48
+termina
+INDICE : 47
+OPERAZIONE:  72.0  -  74.0
+C5, eighth, 0.5, , 72.0, 5
+...  49  ...
+NOTA
+indice utile aggiornato in note:  49
+termina
+INDICE : 48
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  50  ...
+NOTA
+indice utile aggiornato in note:  50
+termina
+INDICE : 49
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  51  ...
+NOTA
+indice utile aggiornato in note:  51
+termina
+INDICE : 50
+OPERAZIONE:  72.0  -  69.0
+C5, whole, 4.0, , 72.0, 5
+...  52  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  53
+...  53  ...
+NOTA
+indice utile aggiornato in note:  53
+termina
+INDICE : 51
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  54  ...
+NOTA
+indice utile aggiornato in note:  54
+termina
+INDICE : 53
+OPERAZIONE:  69.0  -  67.0
+A4, quarter, 1.0, , 69.0, 4
+...  55  ...
+NOTA
+indice utile aggiornato in note:  55
+termina
+INDICE : 54
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  56  ...
+NOTA
+indice utile aggiornato in note:  56
+termina
+INDICE : 55
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  57  ...
+NOTA
+indice utile aggiornato in note:  57
+termina
+INDICE : 56
+OPERAZIONE:  72.0  -  69.0
+C5, quarter, 1.0, , 72.0, 5
+...  58  ...
+NOTA
+indice utile aggiornato in note:  58
+termina
+INDICE : 57
+OPERAZIONE:  74.0  -  72.0
+D5, quarter, 1.0, , 74.0, 5
+...  59  ...
+NOTA
+indice utile aggiornato in note:  59
+termina
+INDICE : 58
+OPERAZIONE:  69.0  -  74.0
+A4, eighth, 0.5, , 69.0, 4
+...  60  ...
+NOTA
+indice utile aggiornato in note:  60
+termina
+INDICE : 59
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  61  ...
+NOTA
+indice utile aggiornato in note:  61
+termina
+INDICE : 60
+OPERAZIONE:  72.0  -  69.0
+C5, half, 2.0, , 72.0, 5
+...  62  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  63
+...  63  ...
+NOTA
+indice utile aggiornato in note:  63
+termina
+INDICE : 61
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  64  ...
+NOTA
+indice utile aggiornato in note:  64
+termina
+INDICE : 63
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  65  ...
+NOTA
+indice utile aggiornato in note:  65
+termina
+INDICE : 64
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  66  ...
+NOTA
+indice utile aggiornato in note:  66
+termina
+INDICE : 65
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  67  ...
+NOTA
+indice utile aggiornato in note:  67
+termina
+INDICE : 66
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  68  ...
+NOTA
+indice utile aggiornato in note:  68
+termina
+INDICE : 67
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  69  ...
+NOTA
+indice utile aggiornato in note:  69
+termina
+INDICE : 68
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  70  ...
+NOTA
+indice utile aggiornato in note:  70
+termina
+INDICE : 69
+OPERAZIONE:  72.0  -  72.0
+C5, whole, 4.0, , 72.0, 5
+...  71  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  72
+...  72  ...
+NOTA
+indice utile aggiornato in note:  72
+termina
+INDICE : 70
+OPERAZIONE:  67.0  -  72.0
+G4, eighth, 0.5, , 67.0, 4
+...  73  ...
+NOTA
+indice utile aggiornato in note:  73
+termina
+INDICE : 72
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  74  ...
+NOTA
+indice utile aggiornato in note:  74
+termina
+INDICE : 73
+OPERAZIONE:  67.0  -  64.0
+G4, eighth, 0.5, , 67.0, 4
+...  75  ...
+NOTA
+indice utile aggiornato in note:  75
+termina
+INDICE : 74
+OPERAZIONE:  67.0  -  67.0
+G4, eighth, 0.5, , 67.0, 4
+...  76  ...
+NOTA
+indice utile aggiornato in note:  76
+termina
+INDICE : 75
+OPERAZIONE:  67.0  -  67.0
+G4, quarter, 1.0, , 67.0, 4
+...  77  ...
+NOTA
+indice utile aggiornato in note:  77
+termina
+INDICE : 76
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  78  ...
+NOTA
+indice utile aggiornato in note:  78
+termina
+INDICE : 77
+OPERAZIONE:  62.0  -  64.0
+D4, whole, 4.0, , 62.0, 4
+...  79  ...
+NOTA
+indice utile aggiornato in note:  79
+termina
+INDICE : 78
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  80  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  81
+...  81  ...
+NOTA
+indice utile aggiornato in note:  81
+termina
+INDICE : 79
+OPERAZIONE:  67.0  -  62.0
+G4, quarter, 1.0, , 67.0, 4
+...  82  ...
+NOTA
+indice utile aggiornato in note:  82
+termina
+INDICE : 81
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  83  ...
+NOTA
+indice utile aggiornato in note:  83
+termina
+INDICE : 82
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  84  ...
+NOTA
+indice utile aggiornato in note:  84
+termina
+INDICE : 83
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  85  ...
+NOTA
+indice utile aggiornato in note:  85
+termina
+INDICE : 84
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  86  ...
+NOTA
+indice utile aggiornato in note:  86
+termina
+INDICE : 85
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  87  ...
+NOTA
+indice utile aggiornato in note:  87
+termina
+INDICE : 86
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  88  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  89
+...  89  ...
+NOTA
+indice utile aggiornato in note:  89
+termina
+INDICE : 87
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  90  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  91
+...  91  ...
+NOTA
+indice utile aggiornato in note:  91
+termina
+INDICE : 89
+OPERAZIONE:  67.0  -  62.0
+G4, quarter, 1.0, , 67.0, 4
+...  92  ...
+NOTA
+indice utile aggiornato in note:  92
+termina
+INDICE : 91
+OPERAZIONE:  64.0  -  67.0
+E4, quarter, 1.0, , 64.0, 4
+...  93  ...
+NOTA
+indice utile aggiornato in note:  93
+termina
+INDICE : 92
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  94  ...
+NOTA
+indice utile aggiornato in note:  94
+termina
+INDICE : 93
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  95  ...
+NOTA
+indice utile aggiornato in note:  95
+termina
+INDICE : 94
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  96  ...
+NOTA
+indice utile aggiornato in note:  96
+termina
+INDICE : 95
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  97  ...
+NOTA
+indice utile aggiornato in note:  97
+termina
+INDICE : 96
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+...  98  ...
+NOTA
+indice utile aggiornato in note:  98
+termina
+INDICE : 97
+OPERAZIONE:  62.0  -  62.0
+D4, quarter, 1.0, , 62.0, 4
+...  99  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   109
+termina
+indice utile:  100
+...  100  ...
+NOTA
+indice utile aggiornato in note:  100
+termina
+INDICE : 98
+OPERAZIONE:  62.0  -  62.0
+D4, eighth, 0.5, , 62.0, 4
+...  101  ...
+NOTA
+indice utile aggiornato in note:  101
+termina
+INDICE : 100
+OPERAZIONE:  60.0  -  62.0
+C4, eighth, 0.5, , 60.0, 4
+...  102  ...
+NOTA
+indice utile aggiornato in note:  102
+termina
+INDICE : 101
+OPERAZIONE:  67.0  -  60.0
+G4, quarter, 1.0, , 67.0, 4
+...  103  ...
+NOTA
+indice utile aggiornato in note:  103
+termina
+INDICE : 102
+OPERAZIONE:  64.0  -  67.0
+E4, eighth, 0.5, , 64.0, 4
+...  104  ...
+NOTA
+indice utile aggiornato in note:  104
+termina
+INDICE : 103
+OPERAZIONE:  62.0  -  64.0
+D4, eighth, 0.5, , 62.0, 4
+...  105  ...
+NOTA
+indice utile aggiornato in note:  105
+termina
+INDICE : 104
+OPERAZIONE:  64.0  -  62.0
+E4, eighth, 0.5, , 64.0, 4
+...  106  ...
+NOTA
+indice utile aggiornato in note:  106
+termina
+INDICE : 105
+OPERAZIONE:  60.0  -  64.0
+C4, eighth, 0.5, , 60.0, 4
+...  107  ...
+NOTA
+indice utile aggiornato in note:  107
+termina
+INDICE : 106
+OPERAZIONE:  62.0  -  60.0
+D4, eighth, 0.5, , 62.0, 4
+...  108  ...
+NOTA
+indice utile aggiornato in note:  108
+termina
+INDICE : 107
+OPERAZIONE:  62.0  -  62.0
+D4, half, 2.0, , 62.0, 4
+pbbbbbb-3b-2b0bbbbbbbb0bbpbb+5b0b-3b-2b+2bbbbbbbb-2bbpb+5b0bb-3bb-2b+2b-4b+2b0bbbb0bbpb+5b0bb0b-3b0bb-4bb+4b-2bbbpb+5b0b+2b+3b-5b+5b-3bpbbbb+3bpb-5b+2bb+5b-2b0b-3b+3bbbbbbbbpb-5b+2bb+3b-3b+3bb+2bb-5b0b+3bbbbpb-5b+2b+3b0b-3b+3b0b0bbbbbbbbpb-5b-3b+3b0b0bb-3b-2bbbbbbbb0bbpbb+5bb-3bb-2b+2b-4b+2b0bbbbpbb0bbpbb+5bb-3bb-2b+2b-4b+2b0bbbb0bbpb0b-2b+7bb-3b-2b+2b-4b+2b0bbbb
+Done.
+mxl file found:	 example2.xml
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 1.0
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note F>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note B->
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note E->
+DURATA: 0.5
+<music21.note.Note D>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note C>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 0.5
+<music21.note.Note G>
+DURATA: 1.0
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Rest rest>
+nulla
+<music21.note.Note C>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 0.5
+<music21.note.Note A>
+DURATA: 1.0
+<music21.note.Note A>
+DURATA: 0.5
+CNTGENEARAL: 54
+C4 0
+[<plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd85ceb8>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd85c6d8>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd881748>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd881b38>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fd8819b0>, <plagiarism_webapp.main.legacy.musicParser.DurationObject object at 0x7fb5fdba7828>]
+4   0   0.0
+2   0   0.0
+1   11   0.2037037037037037
+0.5   43   0.7962962962962963
+0.25   0   0.0
+0.125   0   0.0
+MIND:  0.5
+pitch, duration_string, duration, tie, midi pitch, octave
+...  0  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  9
+...  9  ...
+NOTA
+indice utile aggiornato in note:  9
+INDICE : -1
+NON FARE NULLA
+C5, eighth, 0.5, , 72.0, 5
+...  10  ...
+NOTA
+indice utile aggiornato in note:  10
+termina
+INDICE : 9
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  11  ...
+NOTA
+indice utile aggiornato in note:  11
+termina
+INDICE : 10
+OPERAZIONE:  69.0  -  72.0
+A4, quarter, 1.0, , 69.0, 4
+...  12  ...
+NOTA
+indice utile aggiornato in note:  12
+termina
+INDICE : 11
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  13  ...
+NOTA
+indice utile aggiornato in note:  13
+termina
+INDICE : 12
+OPERAZIONE:  69.0  -  69.0
+A4, quarter, 1.0, , 69.0, 4
+...  14  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  17
+...  17  ...
+NOTA
+indice utile aggiornato in note:  17
+termina
+INDICE : 13
+OPERAZIONE:  72.0  -  69.0
+C5, quarter, 1.5, , 72.0, 5
+...  18  ...
+NOTA
+indice utile aggiornato in note:  18
+termina
+INDICE : 17
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  19  ...
+NOTA
+indice utile aggiornato in note:  19
+termina
+INDICE : 18
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  20  ...
+NOTA
+indice utile aggiornato in note:  20
+termina
+INDICE : 19
+OPERAZIONE:  67.0  -  69.0
+G4, eighth, 0.5, , 67.0, 4
+...  21  ...
+NOTA
+indice utile aggiornato in note:  21
+termina
+INDICE : 20
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  22  ...
+NOTA
+indice utile aggiornato in note:  22
+termina
+INDICE : 21
+OPERAZIONE:  67.0  -  69.0
+G4, quarter, 1.0, , 67.0, 4
+...  23  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  26
+...  26  ...
+NOTA
+indice utile aggiornato in note:  26
+termina
+INDICE : 22
+OPERAZIONE:  72.0  -  67.0
+C5, quarter, 1.5, , 72.0, 5
+...  27  ...
+NOTA
+indice utile aggiornato in note:  27
+termina
+INDICE : 26
+OPERAZIONE:  72.0  -  72.0
+C5, eighth, 0.5, , 72.0, 5
+...  28  ...
+NOTA
+indice utile aggiornato in note:  28
+termina
+INDICE : 27
+OPERAZIONE:  69.0  -  72.0
+A4, eighth, 0.5, , 69.0, 4
+...  29  ...
+NOTA
+indice utile aggiornato in note:  29
+termina
+INDICE : 28
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  30  ...
+NOTA
+indice utile aggiornato in note:  30
+termina
+INDICE : 29
+OPERAZIONE:  69.0  -  69.0
+A4, eighth, 0.5, , 69.0, 4
+...  31  ...
+NOTA
+indice utile aggiornato in note:  31
+termina
+INDICE : 30
+OPERAZIONE:  67.0  -  69.0
+G4, quarter, 1.0, , 67.0, 4
+...  32  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  36
+...  36  ...
+NOTA
+indice utile aggiornato in note:  36
+termina
+INDICE : 31
+OPERAZIONE:  69.0  -  67.0
+A4, eighth, 0.5, , 69.0, 4
+...  37  ...
+NOTA
+indice utile aggiornato in note:  37
+termina
+INDICE : 36
+OPERAZIONE:  72.0  -  69.0
+C5, eighth, 0.5, , 72.0, 5
+...  38  ...
+NOTA
+indice utile aggiornato in note:  38
+termina
+INDICE : 37
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  39  ...
+NOTA
+indice utile aggiornato in note:  39
+termina
+INDICE : 38
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  40  ...
+NOTA
+indice utile aggiornato in note:  40
+termina
+INDICE : 39
+OPERAZIONE:  74.0  -  77.0
+D5, eighth, 0.5, , 74.0, 5
+...  41  ...
+NOTA
+indice utile aggiornato in note:  41
+termina
+INDICE : 40
+OPERAZIONE:  77.0  -  74.0
+F5, quarter, 1.0, , 77.0, 5
+...  42  ...
+NOTA
+indice utile aggiornato in note:  42
+termina
+INDICE : 41
+OPERAZIONE:  77.0  -  77.0
+F5, quarter, 1.0, , 77.0, 5
+...  43  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  45
+...  45  ...
+NOTA
+indice utile aggiornato in note:  45
+termina
+INDICE : 42
+OPERAZIONE:  72.0  -  77.0
+C5, eighth, 0.5, , 72.0, 5
+...  46  ...
+NOTA
+indice utile aggiornato in note:  46
+termina
+INDICE : 45
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  47  ...
+NOTA
+indice utile aggiornato in note:  47
+termina
+INDICE : 46
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  48  ...
+NOTA
+indice utile aggiornato in note:  48
+termina
+INDICE : 47
+OPERAZIONE:  74.0  -  77.0
+D5, eighth, 0.5, , 74.0, 5
+...  49  ...
+NOTA
+indice utile aggiornato in note:  49
+termina
+INDICE : 48
+OPERAZIONE:  77.0  -  74.0
+F5, quarter, 1.0, , 77.0, 5
+...  50  ...
+NOTA
+indice utile aggiornato in note:  50
+termina
+INDICE : 49
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  51  ...
+NOTA
+indice utile aggiornato in note:  51
+termina
+INDICE : 50
+OPERAZIONE:  77.0  -  77.0
+F5, eighth, 0.5, , 77.0, 5
+...  52  ...
+PAUSA
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+SONO NELLA RICORSIONE
+LUNGHEZZA :   82
+termina
+indice utile:  54
+...  54  ...
+NOTA
+indice utile aggiornato in note:  54
+termina
+INDICE : 51
+OPERAZIONE:  72.0  -  77.0
+C5, eighth, 0.5, , 72.0, 5
+...  55  ...
+NOTA
+indice utile aggiornato in note:  55
+termina
+INDICE : 54
+OPERAZIONE:  74.0  -  72.0
+D5, eighth, 0.5, , 74.0, 5
+...  56  ...
+NOTA
+indice utile aggiornato in note:  56
+termina
+INDICE : 55
+OPERAZIONE:  77.0  -  74.0
+F5, eighth, 0.5, , 77.0, 5
+...  57  ...
+NOTA
+indice utile aggiornato in note:  57
+termina
+INDICE : 56
+OPERAZIONE:  74.0

@@ -1,0 +1,12 @@
+Cosine
+Soresen Dice
+Overlap
+61.43
+55.03
+99.1
+TP
+2
+71.85
+50.0
+does_anybody
+nearyou

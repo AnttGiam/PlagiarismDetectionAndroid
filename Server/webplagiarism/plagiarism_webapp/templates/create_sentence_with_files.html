@@ -1,0 +1,142 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <form id="form_id" method="POST" action="" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}     <!-- Aggiunge un token csrf o cross site request forgery token , protezione-->
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">{{ legend }}</legend>
+
+            <div class="form-group">
+                {{ form.title.label(class="form-control-label") }}
+                {% if form.title.errors %} <!-- if there are errors -->
+                    {{ form.title(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback"> <!-- in the div printout all errors -->
+                            {% for error in form.title.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                {% else %}
+                    {{ form.title(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ form.first_song.label(class="form-control-label") }}
+                {% if form.first_song.errors %} <!-- if there are errors -->
+                    {{ form.first_song(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback"> <!-- in the div printout all errors -->
+                            {% for error in form.first_song.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                {% else %}
+                    {{ form.first_song(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ form.second_song.label(class="form-control-label") }}
+                {% if form.second_song.errors %} <!-- if there are errors -->
+                    {{ form.second_song(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback"> <!-- in the div printout all errors -->
+                            {% for error in form.second_song.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                {% else %}
+                    {{ form.second_song(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                        {{ form.song_file1.label() }}
+                        {{ form.song_file1(class="form-control-file") }}
+                        {% if form.song_file1.errors %}
+                            {% for error in form.song_file1.errors %}
+                                <span class="text-danger">{{ error }}</span></br>
+                            {% endfor %}
+                        {% endif %}
+            </div>
+            <div class="form-group">
+                        {{ form.song_file2.label() }}
+                        {{ form.song_file2(class="form-control-file") }}
+                        {% if form.song_file2.errors %}
+                            {% for error in form.song_file2.errors %}
+                                <span class="text-danger">{{ error }}</span></br>
+                            {% endfor %}
+                        {% endif %}
+            </div>
+            <div class="form-group">
+                {{ form.info.label(class="form-control-label") }}
+
+                {% if form.info.errors %} <!-- if there are errors -->
+                    {{ form.info(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback"> <!-- in the div printout all errors -->
+                            {% for error in form.info.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                {% else %}
+                    {{ form.info(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ form.radio_choice.label(class="form-control-label") }}
+
+                {{ form.radio_choice(id="radio_choice") }}
+            </div>
+            <div class="form-group">
+                        {{ form.verdict_file.label() }}
+                        {{ form.verdict_file(id="verdict", class="form-control-file") }}
+                        {% if form.verdict_file.errors %}
+                            {% for error in form.verdict_file.errors %}
+                                <span class="text-danger">{{ error }}</span></br>
+                            {% endfor %}
+                        {% endif %}
+            </div>
+        </fieldset>
+        <div class="form-group"> <!-- div per il submit -->
+            {{ form.submit(class="btn btn-outline-info") }} <!-- da bootstrap classe bottone con bordi-->
+		</div>
+        <div id="loading" style="display:none;">
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <p> Calculating all values, please wait...</p>
+        </div>
+    </form>
+</div>
+
+<!-- javascript per la gestione del caricamento del verdetto in base al valore del radiobutton -->
+<script>
+        function changed_radio_choice() {
+            radio_check_verdict = document.getElementById("radio_choice-2");
+            verdict = document.getElementById("verdict");
+            if(radio_check_verdict.checked){
+                verdict.disabled = false;
+            }
+            else{
+                verdict.disabled = true;
+                verdict.value = "";
+            }
+        }
+
+        function on_load_function() {
+            radio_check_verdict = document.getElementById("radio_choice-2");
+            if(radio_check_verdict.checked){ }
+            else{ document.getElementById("verdict").disabled = true; }
+
+            document.getElementById("radio_choice-0").addEventListener("click", changed_radio_choice);
+            document.getElementById("radio_choice-1").addEventListener("click", changed_radio_choice);
+            document.getElementById("radio_choice-2").addEventListener("click", changed_radio_choice);
+
+            document.getElementById('form_id').onsubmit=function() {
+                $("#" + 'loading').toggle();
+                var submit = document.getElementById("submit");
+                submit.disabled = true;
+                form.submit();
+            };
+        }
+
+        document.addEventListener('DOMContentLoaded', on_load_function(), false);
+
+</script>
+
+{% endblock content%}

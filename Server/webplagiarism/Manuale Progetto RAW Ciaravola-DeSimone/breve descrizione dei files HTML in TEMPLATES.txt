@@ -1,0 +1,47 @@
+layout -> viene ereditato dalle altre pagine, utilizziamo block content e additional content per inserire contenuti del sito
+		  all'interno del layout, block content per la "forma base" del sito, additional content per pagine che differiscono
+		  dalla "forma base"
+
+homepage -> homepage
+about -> pagina di about
+account -> pagina di aggiornamento account
+
+all_sentences-> pagina di visualizzazione di tutti i casi
+user_sentences -> pagina di visualizzazione di tutti i casi con autore l'utente selezionato
+
+
+search_page -> pagina di ricerca, permette di fare l' AND tra i campi mostrati, se vuoto mostra tutti i casi
+search_results -> pagina di visualizzazione dei risultati della suddetta ricerca
+
+sentence -> pagina di visualizzazione del singolo caso, estrapola i dati dal file result_values.txt e le altre informazioni
+			dalla cartella ID dello specifico caso, se il file result_values non è presente, viene tutto settato a 0 e viene
+			mostrato un avvertimento in rosso
+
+login -> pagina di login
+register -> pagina di registrazione
+reset_request -> pagina per richiedere la mail contenente un token ( della durata di 30min) per cambiare la password
+reset_token ->  pagina che controlla il suddetto token e permette il cambiamento della password
+
+create_sentence -> pagina di creazione sentenza dopo il check del plagio ( processo lungo )
+create_sentence_with_files -> pagina di creaazione sentenza con files xml inseriti direttamente ( processo corto )
+# NOTA : per processo lungo si intende CHECK PLAGIARISM e tutti i suoi passaggi, per processo corto NEW CASE e il suo form.
+
+upload_songs -> pagina a cui si accede come primo passo di CHECK PLAGIARISM, vi si caricano i files xml
+uploaded_songs -> una volta caricati i files, qui vengono mostrati i loro nomi e le visualizzazioni con ALPHATAB, dopo un
+				  click ed un caricamento (in cui vengono calcolati i valori) 
+results ->        si viene reindirizzati a results, che mostra i valori calcolati (salvandoli in last_check_temp_files)
+				  e parte, mostrando un caricamento con javascript, il calcolo dell' lcs, che viene poi mostrato con un 
+				  iframe che richiama VIEWLCS
+
+
+alphatab_player -> player di alphatab (richiamato negli iframe nelle altre pagine)
+
+viewlcs -> visualizzazione delle immagini dell'lcs (richiamato negli iframe nelle altre pagine)
+
+-------
+
+CARTELLA ERRORS
+
+403 -> Errore FORBIDDEN, non si hanno i permessi per accedere qui
+404 -> Errore NOT FOUND, non si è trovata la risorsa richiesta
+500 -> Errore GENERIC, errore generico

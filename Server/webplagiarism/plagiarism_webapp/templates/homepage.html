@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="text-center pt-5">
+        <h1>Plagiarism Detection</h1>
+        <h2>Tool for music plagiarism</h2>
+        <h5 class="pt-2">Check for plagiarism between two songs!</h5>
+    </div>
+{% endblock content%}
+{% block additional_content %}
+<div class="row mt-4" style="width:100%; background-color:#7e979c">
+    <div class="col-md-12">
+        <img class="img-fluid" src="{{ url_for('static', filename='layout_images/homepage_image.jpg') }}" title="Notes_thief">
+    </div>
+</div>
+
+    <div class="content text-center pt-5">
+        <div class="row">
+            <div class="col-lg col-md col-sm col-xs">
+                Music plagiarism, the act of copying, without permission, existing music covered by copyright is a controversial and debated topic. The high amount of money that's usually at stake makes the issue quite important. Legislations are unclear, with no general rules to detect plagiarism.
+            </div>
+            <div class="col-lg col-md col-sm col-xs">
+                We have developed a novel meta-heuristic for plagiarism detection, based on rules extracted from a knowledge base of both plagiarism and non-plagiarism cases. This platform exposes a number of real cases that we have analyzed and the possibility of performing new tests.
+            </div>
+            <div class="col-lg col-md col-sm col-xs">
+                The "Check plagiarism!" tab allows to detect plagiarism between two songs with a personalized report calculated by our metrics, hear the songs while looking at the real time music sheet of both of them, view highlighted similar parts between the songs based on the longest common substring. Check out all the cases in the database! If you wish to insert a case, ask for an account.
+            </div>
+        </div>
+    </div>
+{% endblock additional_content%}

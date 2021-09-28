@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for sentence in sentences %}
+        <article class="media content-section">
+            <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + sentence.author.image_file) }}">
+                <div class="media-body">
+                <div class="article-metadata">
+                  <a class="mr-2" href="{{ url_for('users.user_sentences', username=sentence.author.username)}}">{{ sentence.author.username }} {{ sentence.author.first_name }} {{ sentence.author.last_name }}</a>
+                  <small class="text-muted">{{ sentence.date_posted.strftime('%Y-%m-%d') }}</small>
+                </div>
+                <h2><a class="article-title" href="{{ url_for('sentences.sentence', sentence_id=sentence.id) }}">{{ sentence.title }}</a></h2>
+
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-9 ">
+                            <p class="article-content">[{{ sentence.first_song }}] - [{{ sentence.second_song }}]</p>
+                        </div>
+                        <div class="col-md-3 ">
+
+                    {% if sentence.is_plagiarism == true %}
+                    <img class="rounded-circle float-md-right" src="{{ url_for('static', filename='sentence_icons/plagiarism.png') }}" width="40" title="Is Plagiarism">
+                    {% elif sentence.is_plagiarism == false %}
+                    <img class="rounded-circle float-md-right" src="{{ url_for('static', filename='sentence_icons/no_plagiarism.png') }}" width="40" title="Is Not Plagiarism">
+                    {% endif %}
+
+                    {% if sentence.has_trial == true and sentence.has_verdict == true %}
+                    <img class="rounded-circle float-md-right" src="{{ url_for('static', filename='sentence_icons/bilancia.png') }}" width="40" title="Has Trial and Verdict">
+                    {% elif sentence.has_trial == true %}
+                    <img class="rounded-circle float-md-right" src="{{ url_for('static', filename='sentence_icons/bilancia_grigia.png') }}" width="40" title="Has Trial">
+                    {% else  %}
+                    <img class="rounded-circle float-md-right" src="{{ url_for('static', filename='sentence_icons/bilancia_grigia_sbarrata.png') }}" width="40" title="Has No Trial">
+                    {% endif %}
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </article>
+    {% endfor %} <!-- Specifichiamo la fine del for -->
+
+{% endblock content%}
