@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_view"
+        android:icon="@drawable/view_cases_logo"
+        android:title="Guarda Casi"/>
+    <item
+        android:id="@+id/nav_check"
+        android:icon="@drawable/check_plagiarism"
+        android:title="Verifica Plagio"/>
+</menu>

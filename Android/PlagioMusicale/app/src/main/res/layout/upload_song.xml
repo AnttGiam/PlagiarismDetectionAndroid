@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadSong"
+    >
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/upload_songs"
+        android:layout_centerHorizontal="true"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30px"
+    android:paddingTop="210dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/uploadSong1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/case_bg"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="40dp"
+            android:paddingTop="4dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="First song"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_alignParentStart="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    >
+
+                    <TextView
+                        android:id="@+id/song1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Click to select a file"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#467EA9"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/uploadSong2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/case_bg"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="4dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Second song"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_alignParentStart="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                >
+
+                <TextView
+                    android:id="@+id/song2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Click to select a file"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="#467EA9"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/uploadSongs"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Check Plagiarism"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_bg"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:textAlignment="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Want to login first?"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Sign in"
+            android:layout_marginTop="5dp"
+            android:textColor="#467EA9"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+</android.widget.RelativeLayout>

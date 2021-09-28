@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/background_about"
+    >
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/about_us"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="10.63dp"
+        android:layout_height="18.37dp"
+        android:background="@drawable/ic_left_arrow_back_svgrepo_com"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="VaiHome"
+        />
+
+</android.widget.RelativeLayout>

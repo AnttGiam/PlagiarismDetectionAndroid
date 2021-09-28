@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewCase"
+    android:animateLayoutChanges="false"
+
+    >
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/new_casee"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="180dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rec_pic"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Case Data"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:paddingTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text=""
+                            android:textColor="#4f4f4f"
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_marginStart="10dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/caso2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="First Song"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/song1Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text=""
+                            android:textColor="#4f4f4f" />
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:id="@+id/caso1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Second Song"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/song2Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text=""
+                            android:textColor="#4f4f4f"
+                            />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/uploadSong1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/case_bg"
+                    android:layout_marginTop="15dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First song"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerInParent="true"
+                        >
+
+                        <TextView
+                            android:id="@+id/song1f"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Click to select a file"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/uploadSong2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/case_bg"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Second song"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerInParent="true"
+                        >
+
+                        <TextView
+                            android:id="@+id/song2f"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Click to select a file"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Info"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <EditText
+                            android:id="@+id/info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text=""
+                            android:textColor="#4f4f4f"
+                            />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Status"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                        <RadioGroup
+                            android:id="@+id/verdictRadio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <RadioButton android:id="@+id/NoTrial"
+                                android:checked="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Not in trial"/>
+                            <RadioButton android:id="@+id/hasTrial"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="In trial"/>
+                            <RadioButton android:id="@+id/hasTrialAndVerdict"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Went in trial and has verdict" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/uploadVerdict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/case_bg"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:paddingTop="4dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Verdict"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
+
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_alignParentStart="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerInParent="true"
+                        >
+
+                        <TextView
+                            android:id="@+id/verdictf"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Click to select a file"
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="#467EA9"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <Button
+                    android:id="@+id/postCase"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Post Case"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.widget.RelativeLayout>
