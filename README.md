@@ -1,1 +1,1 @@
-# PlagiarismDetectioAndroid
+# PlagiarismDetectionAndroid
